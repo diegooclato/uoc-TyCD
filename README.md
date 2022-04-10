@@ -1,7 +1,7 @@
 
 # Práctica 1: Web scraping
 
-## Noticias Feminicidio CNN
+## Noticias CNN: Pandemia por COVID-19
 
 ### Equipo
 
@@ -10,12 +10,13 @@ Esta práctica es realizada de manera individual.
 
 ### Descripción
 
-Práctica _Web Scraping_ que extrae de la página web de CNN en Españil (https://cnnespanol.cnn.com) las noticias por un tema dado.
-El tema seleccionado para este ejercicio es el **Feminicidio**, ya que hoy en día es de alto interes para la sociedad.
+Práctica _Web Scraping_ que extrae de la página web de CNN en Español (https://cnnespanol.cnn.com) las noticias por un tema dado.
+El tema seleccionado para este ejercicio es la enfermedad **COVID-19**, ya que hoy en día es de alto interes para la sociedad.
 
 ### Información Extraida
 
-- Titulo
+- Clave
+- Título
 - Autor
 - Titulo Busqueda
 - Etiqueta
@@ -23,6 +24,7 @@ El tema seleccionado para este ejercicio es el **Feminicidio**, ya que hoy en d�
 - Hora
 - Titulo Imagen
 - Imagen URL
+- Noticia URL
 - Contenido
 
 **Nota:** Este proyecto puede ser modificado para extraer información de otrops temas de interes de la página https://cnnespanol.cnn.com
