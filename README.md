@@ -6,19 +6,31 @@
 ### Equipo
 
 Author: Diego Octavio Labastida Tolalpa
+
 Esta práctica es realizada de manera individual.
 
 ### Descripción
 
 Práctica _Web Scraping_ que extrae de la página web de CNN en Español (https://cnnespanol.cnn.com) las noticias por un tema dado.
-El tema seleccionado para este ejercicio es la enfermedad **COVID-19**, ya que hoy en día es de alto interes para la sociedad.
+El tema seleccionado para este ejercicio es la enfermedad **COVID-19**, ya que hoy en día es de alto interés para la sociedad.
 
-### Información Extraida
+### Fichero /WebScrapingCode/WebScrapingCode
+
+Código Python para Scraping de Página Web **CNN en Español** usando una lista de palabras clave para la búsqueda de noticias relevantes.
+- covid-19
+- coronavirus
+- sars-cov-2
+- vacuna
+- pandemia
+
+### Fichero: /WebScrapingCode/news_pandemia_covid19.csv
+
+Contiene los datos extraídos por el código de Scraping con las siguientes columnas: 
 
 - Clave
 - Título
 - Autor
-- Titulo Busqueda
+- Titulo Búsqueda
 - Etiqueta
 - Fecha
 - Hora
@@ -27,15 +39,12 @@ El tema seleccionado para este ejercicio es la enfermedad **COVID-19**, ya que h
 - Noticia URL
 - Contenido
 
-**Nota:** Este proyecto puede ser modificado para extraer información de otrops temas de interes de la página https://cnnespanol.cnn.com
+### Carpeta Respuestas_PRA1
+Contiene 2 ficheros 
 
-### Archivo robots.txt
+- **PRA1_Web_Scraping.pdf**: Archivo solicitado con las respuestas de la práctica 1 
+- **README.md**: Considero este fichero necesario con la misma información del PDF, ya que tiene información relevante al repositorio. 
 
-    Sitemap: https://cnnespanol.cnn.com/sitemap_index.xml
-    Sitemap: https://cnnespanol.cnn.com/news-sitemap.xml
-    
-    User-agent: *
-    Disallow: /wp-admin/
-    Allow: /wp-admin/admin-ajax.php
+### DOI de Zenodo
 
-Permite el acceso a cuañquier robot y solo excluye el directorio _/wp-admin/_ aunque dentro de este tenemos permitido acceder a _/wp-admin/admin-ajax.php_
+10.5281/zenodo.6440655
