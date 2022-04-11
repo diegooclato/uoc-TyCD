@@ -39,7 +39,7 @@ Contiene los datos extraídos por el código de Scraping con las siguientes colu
 - Noticia URL
 - Contenido
 
-### Carpeta Respuestas_PRA1
+### Carpeta: Respuestas_PRA1
 Contiene 2 ficheros 
 
 - **PRA1_Web_Scraping.pdf**: Archivo solicitado con las respuestas de la práctica 1 
